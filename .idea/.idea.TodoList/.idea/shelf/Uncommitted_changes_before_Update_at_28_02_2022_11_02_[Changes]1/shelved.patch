@@ -1,0 +1,62 @@
+Index: TodoList/Database/Database.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using Microsoft.Extensions.Options;\nusing MongoDB.Driver;\nnamespace TodoList.Database;\npublic class Database\n{\n    private readonly MongoClient _client;\n    private readonly IMongoDatabase _database;\n\n    public DatabaseContext(IOptions<App.DatabaseSettings> dbOptions)\n    {\n        var settings = dbOptions.Value;\n        _client = new MongoClient(settings.ConnectionString);\n        _database = _client.GetDatabase(settings.DatabaseName);\n    }\n\n    public IMongoClient Client => _client;\n\n    public IMongoDatabase Database => _database;\n}\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TodoList/Database/Database.cs b/TodoList/Database/Database.cs
+--- a/TodoList/Database/Database.cs	
++++ b/TodoList/Database/Database.cs	
+@@ -1,12 +1,12 @@
+ using Microsoft.Extensions.Options;
+ using MongoDB.Driver;
+ namespace TodoList.Database;
+-public class Database
++public class DatabaseContext
+ {
+     private readonly MongoClient _client;
+     private readonly IMongoDatabase _database;
+ 
+-    public DatabaseContext(IOptions<App.DatabaseSettings> dbOptions)
++    public DatabaseContext(IOptions<DatabaseSettings> dbOptions)
+     {
+         var settings = dbOptions.Value;
+         _client = new MongoClient(settings.ConnectionString);
+@@ -16,5 +16,4 @@
+     public IMongoClient Client => _client;
+ 
+     public IMongoDatabase Database => _database;
+-}
+ }
+\ No newline at end of file
+Index: TodoList/Database/App.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace TodoList.Database;\n\nusing MongoDB.Driver;\nusing Newtonsoft.Json;\n\npublic class App\n{\n    public class DatabaseSettings\n    {\n        public const string DatabaseSettingsSection = \"DatabaseSettings\";\n\n        public string? ConnectionString { get; set; }\n        public string? DatabaseName { get; set; }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TodoList/Database/App.cs b/TodoList/Database/App.cs
+--- a/TodoList/Database/App.cs	
++++ b/TodoList/Database/App.cs	
+@@ -1,15 +1,8 @@
+ namespace TodoList.Database;
+-
+-using MongoDB.Driver;
+-using Newtonsoft.Json;
+-
+-public class App
+-{
+-    public class DatabaseSettings
++public class DatabaseSettings
+     {
+         public const string DatabaseSettingsSection = "DatabaseSettings";
+ 
+         public string? ConnectionString { get; set; }
+         public string? DatabaseName { get; set; }
+-    }
+-}
+\ No newline at end of file
++    }
+\ No newline at end of file
