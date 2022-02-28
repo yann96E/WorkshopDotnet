@@ -9,9 +9,7 @@ public class DatabaseContext
 
     public DatabaseContext(IOptions<DatabaseSettings> dbOptions)
     {
-        Console.WriteLine("test");
         var settings = dbOptions.Value;
-        Console.WriteLine(settings.ConnectionString);
         _client = new MongoClient(settings.ConnectionString);
         _database = _client.GetDatabase(settings.DatabaseName);
     }

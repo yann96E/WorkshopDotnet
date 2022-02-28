@@ -2,14 +2,8 @@ namespace TodoList.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-public class ListModel
+public class Todo
 {
-    [BsonElement("name")]
-        public string Name {get; set;} = String.Empty;
-        
-    [BsonElement("active")]
-        public bool Active {get; set;} = true;
-        
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public ObjectId Id_ { get; set; }
@@ -22,4 +16,10 @@ public class ListModel
             return Id_.ToString();
         }
     }
+
+    [BsonElement("name")]
+    public string Name {get; set;} = String.Empty;
+        
+    [BsonElement("active")]
+    public bool Active {get; set;} = true;
 }

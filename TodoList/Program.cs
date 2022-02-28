@@ -1,9 +1,16 @@
 using TodoList.Database;
+using TodoList.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 ConfigurationManager configuration = builder.Configuration;
+
+builder.Services.AddCors(options => { options.AddPolicy("CorsPolicy", builder =>
+    {
+        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    }); 
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -13,6 +20,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<DatabaseSettings>(configuration.GetSection(DatabaseSettings.DatabaseSettingsSection));
 
 builder.Services.AddSingleton<DatabaseContext>();
+builder.Services.AddScoped<TodoListService>();
 
 var app = builder.Build();
 
@@ -23,9 +31,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-builder.Services.AddScoped<DatabaseContext>();
-
-app.UseHttpsRedirection();
+app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 
