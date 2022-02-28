@@ -23,6 +23,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+builder.Services.AddScoped<DatabaseContext>();
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

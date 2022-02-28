@@ -9,4 +9,17 @@ public class ListModel
         
     [BsonElement("active")]
         public bool Active {get; set;} = true;
+        
+    [BsonElement("id_")]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public ObjectId Id_ { get; set; }
+
+    [BsonElement("id")]
+    public string Id
+    {
+        get
+        {
+            return Id_.ToString();
+        }
+    }
 }
