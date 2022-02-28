@@ -5,13 +5,17 @@
     <projectFile profileName="IIS Express">TodoList/TodoList.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5cb70c0-086f-4a89-865b-42a3fe3d074d" name="Changes" comment="" />
+    <list default="true" id="d5cb70c0-086f-4a89-865b-42a3fe3d074d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoList/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/WeatherForecast.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/Controllers/WeatherForecastController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/Database/App.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/Database/App.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/Database/App.cs" root0="SKIP_HIGHLIGHTING" />
