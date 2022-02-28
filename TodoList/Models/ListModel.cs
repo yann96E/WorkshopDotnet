@@ -10,7 +10,7 @@ public class ListModel
     [BsonElement("active")]
         public bool Active {get; set;} = true;
         
-    [BsonElement("id_")]
+    [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public ObjectId Id_ { get; set; }
 

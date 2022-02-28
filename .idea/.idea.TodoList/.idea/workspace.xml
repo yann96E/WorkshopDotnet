@@ -9,20 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add1c157-6372-41c9-ad78-58d1a35d9392" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TodoList/Services/TodoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/Controllers/TodoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/Models/ListModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/Models/ListModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/Debug/net6.0/TodoList.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/Debug/net6.0/TodoList.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/Debug/net6.0/TodoList.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/Debug/net6.0/TodoList.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/Debug/net6.0/TodoList.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/Debug/net6.0/TodoList.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/TodoList.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/TodoList.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/TodoList.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/TodoList.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646041769660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Last commit">
+      <created>1646054323118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646054323118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +127,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Vos daronnes les dinosaures" />
     <MESSAGE value="ntm" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last commit" />
   </component>
 </project>
