@@ -1,14 +1,17 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+
 namespace TodoList.Database;
-public class Database
+public class DatabaseContext
 {
     private readonly MongoClient _client;
     private readonly IMongoDatabase _database;
 
-    public DatabaseContext(IOptions<App.DatabaseSettings> dbOptions)
+    public DatabaseContext(IOptions<DatabaseSettings> dbOptions)
     {
+        Console.WriteLine("test");
         var settings = dbOptions.Value;
+        Console.WriteLine(settings.ConnectionString);
         _client = new MongoClient(settings.ConnectionString);
         _database = _client.GetDatabase(settings.DatabaseName);
     }
@@ -16,5 +19,4 @@ public class Database
     public IMongoClient Client => _client;
 
     public IMongoDatabase Database => _database;
-}
 }

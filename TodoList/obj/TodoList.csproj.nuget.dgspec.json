@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/killianpin/Documents/TECH3/workshop/WorkshopDotnet/TodoList/TodoList.csproj": {}
+    "/home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/TodoList.csproj": {}
   },
   "projects": {
-    "/Users/killianpin/Documents/TECH3/workshop/WorkshopDotnet/TodoList/TodoList.csproj": {
+    "/home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/TodoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/killianpin/Documents/TECH3/workshop/WorkshopDotnet/TodoList/TodoList.csproj",
+        "projectUniqueName": "/home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/TodoList.csproj",
         "projectName": "TodoList",
-        "projectPath": "/Users/killianpin/Documents/TECH3/workshop/WorkshopDotnet/TodoList/TodoList.csproj",
-        "packagesPath": "/Users/killianpin/.nuget/packages/",
-        "outputPath": "/Users/killianpin/Documents/TECH3/workshop/WorkshopDotnet/TodoList/obj/",
+        "projectPath": "/home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/TodoList.csproj",
+        "packagesPath": "/home/yann/.nuget/packages/",
+        "outputPath": "/home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/killianpin/.nuget/NuGet/NuGet.Config"
+          "/home/yann/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -65,6 +65,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.2, 6.0.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

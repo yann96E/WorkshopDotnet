@@ -7,7 +7,7 @@ namespace TodoList.Controllers;
 public class TodoListController : ControllerBase
 {
     [HttpPost("add")]
-    public class addTodo
+    public void addTodo()
     {
         
     }
