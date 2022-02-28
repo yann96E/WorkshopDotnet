@@ -5,22 +5,24 @@
     <projectFile profileName="IIS Express">TodoList/TodoList.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84828143-83a1-4666-977b-741f45b72702" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TodoList/Database/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/Database/App.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/Database/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/Database/Database.cs" afterDir="false" />
-    </list>
+    <list default="true" id="d5cb70c0-086f-4a89-865b-42a3fe3d074d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/killianpin/Documents/TECH3/workshop/WorkshopDotnet/TodoList/Database/Database.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/Database/App.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/Database/App.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/yann/Documents/EPITECH/Workshop/WorkshopDotnet/TodoList/Database/App.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25jX8qVpcRfBDNGBt0E469S6e3s" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
